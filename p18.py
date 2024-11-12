@@ -1,6 +1,5 @@
 import calendar
 
-
 def print_months_of_year(year):
     print(f"Months of the year {year} with the number of days:")
     
@@ -8,6 +7,7 @@ def print_months_of_year(year):
         month_name = calendar.month_name[month]  
         print(f"{month_name}")
 
-
 year = int(input("Enter a year: "))
 print_months_of_year(year)
+
+#
